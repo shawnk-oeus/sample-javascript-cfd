@@ -13,7 +13,7 @@ jobs:
       - checkout
       - run:
           name: Install dependencies
-          command: yarn build
+          command: yarn
       - run:
           name: Run tests
           command: yarn run test:unit
